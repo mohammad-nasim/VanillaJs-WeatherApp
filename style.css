@@ -1,17 +1,22 @@
 html , body {
     margin: 0px;
     padding: 0px;
+    
 }
 
 #left{
-    height: 100vh;
+    height: 110vh;
     background-color: rgb(252, 231, 186)
 }
 
 #right{
-    height: 100vh;
+    height: 110vh;
     
     background-color: rgb(50, 117, 156);
+}
+
+.right-child{
+    margin-top: 1000px;
 }
 
 #main-icon{
@@ -25,9 +30,9 @@ html , body {
 }
 
 #condition{
-    width: 170px;
-    height: 160px;
-    margin-left: 230px;
+    width: 70px;
+    height: 70px;
+    margin-left: 270px;
     margin-top: 40px;
     margin-bottom: 0px;
 }
@@ -41,6 +46,7 @@ html , body {
     display: none !important;
 }
 
-#nasim{
-    display: none;
+#master-history{
+    display: none ;
 }
+
